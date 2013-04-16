@@ -1,6 +1,6 @@
 //
-//  ViewController.h
-//  Sampler
+//  CustomCell.h
+//  sampler
 //
 //  Created by Nico Santoro on 15/04/13.
 //  Copyright (c) 2013 Nico Santoro. All rights reserved.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITableViewDelegate>
+@interface CustomCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *trackLabel;
 
 @end
